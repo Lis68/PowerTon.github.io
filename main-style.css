@@ -174,3 +174,74 @@ body {
     font-style: normal;
     padding: 50px 150px 50px 7vw;
 }
+
+@media screen and (max-width: 1500px) {
+.logo {
+    margin-right: 600px;
+}
+.header p {
+    padding-right: 60px;
+}
+}
+@media screen and (max-width: 1410px) {
+    .greeting-text {
+        margin-right: 110px;
+    }
+}
+@media screen and (max-width: 1300px) {
+    .logo {
+        margin-right: 480px;
+    }
+    .header p {
+        padding-right: 30px;
+    }
+    .greeting-text p {
+        font-size: 110%;
+    }
+    .greeting-text h2 {
+        font-size: 180%;
+    }
+}
+@media screen and (max-width: 1210px) {
+    .footer-text {
+        font-size: 110%;
+    }
+}
+
+@media screen and (max-width:1100px) {
+    .img-girl img {
+        width: 294px;
+        height: 416px;  
+    }
+    .greeting-text {
+        padding-left: 90px;
+    }
+    .greeting-text h2 {
+        font-size: 140%;
+    }
+    .greeting-text p {
+        font-size: 90%;
+        padding-bottom: 3px;
+        margin-bottom: 3px;
+    }
+    .footer-text {
+        padding-right: 70px;
+    }
+    .footer-img img {
+        width: 317px;
+        height: 296px;
+
+    }
+    .footer {
+        padding: 50px 90px 50px 7vw;
+    }
+
+}
+@media screen and (max-width: 1065px) {
+    .logo {
+        margin-right: 320px;
+    }
+    .header p {
+        padding-right: 15px;
+    }
+}
