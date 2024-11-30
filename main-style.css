@@ -355,7 +355,7 @@ body {
         font-size: 60%;
     }
     .footer-text p {
-        font-size: 80%;
+        font-size: 90%;
     }
     .banner img {
         width: 271px;
@@ -386,7 +386,7 @@ body {
         margin-right: 65px;
     }
     .footer-text p {
-        font-size: 65%;
+        font-size: 80%;
     }
     .footer-img img {
         width: 141px;
@@ -519,23 +519,19 @@ body {
     .heading-2 {
         font-size: 90%;
     }
-    .greeting-text {
-        margin-right: 50px;
-    }
     .product-price-1 {
         font-size: 120%;
     }
     .footer-text {
-        padding-right: 10px;
+        padding-right: 30px;
+        padding-left: 30px;
     }
 }
 @media screen and (max-width: 420px) {
     .header img {
         padding-top: 5px;
     }
-    .footer-text {
-        padding-right: 50px;
-    }
+
     .footer {
         padding: 20px 40px 20px 7vw;
     }
