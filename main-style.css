@@ -420,6 +420,22 @@ body {
     .greeting-text p {
         font-size: 80%;
     }
+    .footer {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .footer-text {
+        padding-left: 30px;
+        margin-bottom: 40px;
+        padding-right: 20px;
+    }
+    .footer-text p {
+        font-size: 80%;
+    }
+    .footer-img img {
+        width: 317px;
+        height: 296px;
+    }
 
 
 }
@@ -430,9 +446,6 @@ body {
     }
     .header p {
         padding-right: 20px;
-    }
-    .footer-text p {
-        font-size: 60%;
     }
 }
 @media screen and (max-width: 550px) { 
@@ -465,9 +478,10 @@ body {
         height: 299px;  
     }
     .footer-img img {
-        width: 165px;
-        height: 155px;  
+        width: 265px;
+        height: 249px;  
     }
+
     .footer {
         padding: 20px 60px 20px 7vw;
     }
@@ -477,13 +491,7 @@ body {
     }
 }
 
-@media screen and (max-width: 474px) {
-    
-    .footer-img img {
-        width: 103px;
-        height: 97px;  
-    }
-}
+
 @media screen and (max-width: 455px) {
     .header {
         font-size: 70%;
@@ -492,10 +500,15 @@ body {
         padding-top: 7px;
     }
     .footer-text p {
-        font-size: 50%;
+        font-size: 70%;
+    }
+    .footer-img img {
+        width: 211px;
+        height: 198px;  
     }
 }
 @media screen and (max-width: 420px) {
+    
     .header {
         font-size: 60%;
         border-bottom: 1px solid black;
@@ -511,6 +524,9 @@ body {
     }
     .product-price-1 {
         font-size: 120%;
+    }
+    .footer-text {
+        padding-right: 10px;
     }
 }
 @media screen and (max-width: 420px) {
@@ -550,17 +566,10 @@ body {
     }
 }
 @media screen and (max-width: 352px) {
-    .footer {
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-    .footer-text {
-        padding-left: 30px;
-        margin-bottom: 40px;
-        padding-right: 20px;
-    }
+
+
     .footer-text p {
-        font-size: 70%;
+        font-size: 50%;
     }
     .footer-img img {
         width: 188px;
