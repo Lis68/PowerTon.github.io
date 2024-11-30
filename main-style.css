@@ -10,7 +10,7 @@ body {
     font-style: normal;
     background-color: rgb(255, 255, 255);
     padding: 10px 0px;
-    border-bottom: 3px solid black;
+    border-bottom: 2px solid black;
     margin-bottom: 50px;
 }
 .logo {
@@ -265,6 +265,10 @@ body {
     .footer {
         padding: 50px 60px 50px 7vw;
     }
+    .banner img {
+        width: 289px;
+        height: 289px;
+    }
 
 }
 @media screen and (max-width: 1065px) {
@@ -309,9 +313,15 @@ body {
         padding-bottom: 3px;
         margin-bottom: 3px;
     }
+    .footer-text {
+        font-size: 90%;
+    }
     .footer-img img {
         width: 230px;
         height: 216px;
+    }
+    .rectangle {
+        font-size: 60px;
     }
 }
 @media screen and (max-width: 866px) {
@@ -347,6 +357,14 @@ body {
     .footer-text p {
         font-size: 80%;
     }
+    .banner img {
+        width: 271px;
+        height: 271px;
+    }
+    .rectangle {
+        font-size: 40px;
+    }
+
 }
 @media screen and (max-width: 760px) {
     .logo {
@@ -370,6 +388,10 @@ body {
     .footer-text p {
         font-size: 65%;
     }
+    .footer-img img {
+        width: 141px;
+        height: 133px;
+    }
 }
 @media screen and (max-width: 620px) { 
     .logo {
@@ -379,8 +401,27 @@ body {
         padding-right: 20px;
     }
     .rectangle {
-        font-size: 50px;
+        font-size: 40px;
     }
+    .main-greeting {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .img-girl {
+        padding-left: 0px;
+    }
+    .img-girl img {
+        width: 294px;
+        height: 416px;
+    }
+    .greeting-text h2 {
+        font-size: 100%;
+    }
+    .greeting-text p {
+        font-size: 80%;
+    }
+
+
 }
 @media screen and (max-width: 595px) { 
     .logo {
@@ -390,11 +431,196 @@ body {
     .header p {
         padding-right: 20px;
     }
-    .greeting-text h2 {
+    .footer-text p {
         font-size: 60%;
     }
-    .greeting-text p {
+}
+@media screen and (max-width: 550px) { 
+    .header {
+        font-size: 90%;
+    }
+    .logo {
+        margin-right: 20px;
+    }
+    .header p {
+        padding-right: 20px;
+    }
+    .header img {
+        padding-top: 14px;
+    }
+    .rectangle {
+        font-size: 30px;
+    }
+
+}
+@media screen and (max-width: 500px) { 
+    .header {
+        font-size: 80%;
+    }
+    .header img {
+        padding-top: 10px;
+    }
+    .img-girl img {
+        width: 212px;
+        height: 299px;  
+    }
+    .footer-img img {
+        width: 165px;
+        height: 155px;  
+    }
+    .footer {
+        padding: 20px 60px 20px 7vw;
+    }
+    .banner img {
+        width: 231px;
+        height: 231px;
+    }
+}
+
+@media screen and (max-width: 474px) {
+    
+    .footer-img img {
+        width: 103px;
+        height: 97px;  
+    }
+}
+@media screen and (max-width: 455px) {
+    .header {
+        font-size: 70%;
+    }
+    .header img {
+        padding-top: 7px;
+    }
+    .footer-text p {
         font-size: 50%;
+    }
+}
+@media screen and (max-width: 420px) {
+    .header {
+        font-size: 60%;
+        border-bottom: 1px solid black;
+    }
+    .rectangle {
+        font-size: 30px;
+    }
+    .heading-2 {
+        font-size: 90%;
+    }
+    .greeting-text {
+        margin-right: 50px;
+    }
+    .product-price-1 {
+        font-size: 120%;
+    }
+}
+@media screen and (max-width: 420px) {
+    .header img {
+        padding-top: 5px;
+    }
+    .footer-text {
+        padding-right: 50px;
+    }
+    .footer {
+        padding: 20px 40px 20px 7vw;
+    }
+    .banner img {
+        width: 190px;
+        height: 190px;
+    }
+}
+@media screen and (max-width: 376px) {
+    .header {
+        font-size: 50%;
+    }
+    .header img {
+        padding-top: 7px;
+    }
+    .header img {
+        width: 20px;
+        height: 20px;
+    }
+    .rectangle {
+        font-size: 20px;
+    }
+    .heading-2 {
+        font-size: 80%;
+    }
+    .footer {
+        padding: 20px 20px 20px 7vw;
+    }
+}
+@media screen and (max-width: 352px) {
+    .footer {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .footer-text {
+        padding-left: 30px;
+        margin-bottom: 40px;
+        padding-right: 20px;
+    }
+    .footer-text p {
+        font-size: 70%;
+    }
+    .footer-img img {
+        width: 188px;
+        height: 176px;
+    }
+}
+@media screen and (max-width: 324px) {
+    .header {
+        font-size: 40%;
+    }
+    .header img {
+        padding-top: 2px;
+    }
+    .banner img {
+        width: 132px;
+        height: 132px;
+    }
+    .main-butt {
+        width: 120px;
+        height: 30px;
+        font-size: 50%;
+    }
+    .rectangle {
+        font-size: 17px;
+        letter-spacing: 15px;
+    }
+    .heading-2 {
+        font-size: 60%;
+    }
+    .greeting-text {
+        margin-right: 30px;
+        padding-left: 30px;
+    }
+    .main {
+        margin-bottom: 160px;
+    }
+    .product-list-banner {
+        border-bottom: 1px solid black;
+    }
+}
+@media screen and (max-width: 285px) {
+    .header {
+        font-size: 30%;
+    }
+}
+@media screen and (max-width: 250px) {
+    .header p {
+        padding-right: 10px;
+    }
+    .header img {
+        width: 15px;
+        height: 15px;
+    }
+}
+@media screen and (max-width: 220px) {
+    .greeting-text h2 {
+        font-size: 80%;
+    }
+    .greeting-text p {
+        font-size: 60%;
     }
     .footer-text p {
         font-size: 60%;
