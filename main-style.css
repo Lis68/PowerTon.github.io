@@ -555,6 +555,11 @@ body {
         height: 190px;
     }
 }
+@media screen and (max-width: 381px) {
+    .heading-2 {
+        font-size: 70%;
+    }
+}
 @media screen and (max-width: 376px) {
     .header {
         font-size: 50%;
@@ -585,6 +590,11 @@ body {
     .footer-img img {
         width: 188px;
         height: 176px;
+    }
+}
+@media screen and (max-width: 330px) {
+    .heading-2 {
+        font-size: 65%;
     }
 }
 @media screen and (max-width: 324px) {
