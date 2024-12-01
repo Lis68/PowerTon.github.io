@@ -12,6 +12,7 @@ body {
     padding: 10px 0px;
     border-bottom: 2px solid black;
     margin-bottom: 50px;
+    color: #171717;
 }
 .logo {
     margin-right: 610px;
@@ -23,9 +24,13 @@ body {
     font-weight: 500;
     font-style: normal;
 }
+.menu p a {
+    color: #171717;
+}
 .menu {
     display: flex;
     font-size: 120%;
+
 }
 .menu p {
     padding-right: 120px;
