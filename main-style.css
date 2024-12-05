@@ -1,0 +1,663 @@
+
+body {
+    margin: 0;
+}
+.header {
+    display: flex;
+    font-family: "Jura", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    background-color: rgb(255, 255, 255);
+    padding: 10px 0px;
+    border-bottom: 2px solid black;
+    margin-bottom: 50px;
+    color: #171717;
+}
+.logo {
+    margin-right: 610px;
+    padding-left: 50px;
+}
+.header h3 {
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+.menu p a {
+    color: #171717;
+}
+.menu {
+    display: flex;
+    font-size: 120%;
+
+}
+.menu p {
+    padding-right: 120px;
+}
+
+.menu img {
+    padding-top: 17px;
+}
+.banner {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    margin-bottom: 120px ;
+}
+.main-butt {
+    width: 200px;
+    height: 55px;
+    margin: auto;
+    text-align: center;
+    padding-top: 3px;
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+    font-family: "Jura", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    margin-bottom: 220px;
+}
+.rectangle {
+    display: flex;
+    justify-content: center;
+    font-size: 80px;
+    color: aliceblue;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: 20px;
+    background-color: #171717;
+    padding: 40px 0px;
+}
+.main {
+    padding-bottom: 80px;
+    margin-bottom: 220px;
+}
+.heading-2 {
+    font-family: "Jura", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 120%;
+    margin-bottom: 90px;
+}
+.product-list-banner {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 70px;
+    border-bottom: 3px solid black;
+    margin-bottom: 280px;
+}
+.product-1, .product-2, .product-3, .product-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+.product-name-1, .product-name-2,
+.product-name-3, .product-name-4 {
+    font-size: 120%;
+    margin-bottom: 0px;
+}
+.product-price-1, .product-price-2, 
+.product-price-3, .product-price-4 {
+    font-weight: 800;
+    font-size: 120%;
+    margin-bottom: 5px;
+    padding: 12px 70px;
+    border: 2px solid black;
+}
+.product-info-1, .product-info-2, 
+.product-info-3, .product-info-4 {
+    font-weight: 600;
+    padding: 15px 52px;
+    background-color: black;
+    color: aliceblue;
+    font-size: 110%;
+}
+.main-greeting {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 100px;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.img-girl {
+    padding-left: 7vw;
+}
+.greeting-text {
+    padding-left: 140px;
+    margin-right: 190px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.greeting-text h2 {
+    padding-bottom: 20px;
+    font-size: 260%;
+    margin-top: 28px;
+}
+.greeting-text p {
+    font-size: 120%;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+}
+.main-greeting {
+    margin-bottom: 120px;
+}
+.footer-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 210px;
+    font-size: 130%;
+
+}
+.footer-img {
+    display: flex;
+    justify-content: center;
+
+}
+.footer {
+    display: flex;
+    background-color: #171717;
+    color: aliceblue;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    padding: 50px 150px 50px 7vw;
+}
+
+@media screen and (max-width: 1500px) {
+.logo {
+    margin-right: 600px;
+}
+.header p {
+    padding-right: 100px;
+}
+.banner {
+    border: 5px solid #171717
+}
+.rectangle {
+    border: 5px solid #171717
+}
+.footer {
+    border: 5px solid #171717
+}
+}
+@media screen and (max-width: 1410px) {
+    .greeting-text {
+        margin-right: 110px;
+    }
+    .logo {
+        margin-right: 560px;
+    }
+    .header p {
+        padding-right: 90px;
+    }
+}
+@media screen and (max-width: 1320px) {
+    .logo {
+        margin-right: 530px;
+    }
+    .header p {
+        padding-right: 80px;
+    }
+}
+@media screen and (max-width: 1300px) {
+    .greeting-text p {
+        font-size: 110%;
+    }
+    .greeting-text h2 {
+        font-size: 180%;
+    }
+}
+
+@media screen and (max-width:1260px) {
+    .logo {
+        margin-right: 500px;
+    }
+    .header p {
+        padding-right: 70px;
+    }
+}
+@media screen and (max-width: 1210px) {
+    .logo {
+        margin-right: 470px;
+    }
+    .header p {
+        padding-right: 50px;
+    }
+    .footer-text {
+        font-size: 110%;
+    }
+}
+@media screen and (max-width: 1111px) { 
+    .logo {
+        margin-right: 430px;
+    }
+    .header p {
+        padding-right: 40px;
+    }
+}
+@media screen and (max-width:1100px) {
+    .img-girl img {
+        width: 294px;
+        height: 416px;  
+    }
+    .greeting-text {
+        padding-left: 90px;
+    }
+    .greeting-text h2 {
+        font-size: 140%;
+    }
+    .greeting-text p {
+        font-size: 90%;
+        padding-bottom: 3px;
+        margin-bottom: 3px;
+    }
+    .footer-text {
+        padding-right: 70px;
+    }
+    .footer-img img {
+        width: 317px;
+        height: 296px;
+
+    }
+    .footer {
+        padding: 50px 60px 50px 7vw;
+    }
+    .banner img {
+        width: 289px;
+        height: 289px;
+    }
+
+}
+@media screen and (max-width: 1065px) {
+    .logo {
+        margin-right: 390px;
+    }
+    .header p {
+        padding-right: 30px;
+    }
+}
+@media screen and (max-width: 995px) {
+    .product-list-banner {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+}
+@media screen and (max-width: 996px) {
+    .logo {
+        margin-right: 320px;
+    }
+    .header p {
+        padding-right: 30px;
+    }
+}
+@media screen and (max-width: 896px) {
+    .logo {
+        margin-right: 220px;
+    }
+    .header p {
+        padding-right: 30px;
+    }
+    .img-girl img {
+        width: 212px;
+        height: 299px;  
+    }
+    .greeting-text h2 {
+        font-size: 120%;
+    }
+    .greeting-text p {
+        font-size: 80%;
+        padding-bottom: 3px;
+        margin-bottom: 3px;
+    }
+    .footer-text {
+        font-size: 90%;
+    }
+    .footer-img img {
+        width: 230px;
+        height: 216px;
+    }
+    .rectangle {
+        font-size: 60px;
+    }
+}
+@media screen and (max-width: 866px) {
+    .greeting-text h2 {
+        font-size: 100%;
+        margin-bottom: 0px;
+    }
+    .greeting-text p {
+        font-size: 70%;
+    }
+}
+@media screen and (max-width: 866px) {
+    .logo {
+        margin-right: 150px;
+    }
+    .header p {
+        padding-right: 30px;
+    }
+}
+@media screen and (max-width: 760px) {
+    .logo {
+        margin-right: 110px;
+    }
+    .header p {
+        padding-right: 30px;
+    }
+    .greeting-text h2 {
+        font-size: 80%;
+    }
+    .greeting-text p {
+        font-size: 60%;
+    }
+    .footer-text p {
+        font-size: 90%;
+    }
+    .banner img {
+        width: 271px;
+        height: 271px;
+    }
+    .rectangle {
+        font-size: 40px;
+    }
+
+}
+@media screen and (max-width: 760px) {
+    .logo {
+        margin-right: 90px;
+    }
+    .header p {
+        padding-right: 30px;
+    }
+}
+@media screen and (max-width: 667px) { 
+    .logo {
+        margin-right: 70px;
+    }
+    .header p {
+        padding-right: 20px;
+    }
+    .greeting-text {
+        padding-left: 60px;
+        margin-right: 65px;
+    }
+    .footer-text p {
+        font-size: 80%;
+    }
+    .footer-img img {
+        width: 141px;
+        height: 133px;
+    }
+}
+@media screen and (max-width: 620px) { 
+    .logo {
+        margin-right: 50px;
+    }
+    .header p {
+        padding-right: 20px;
+    }
+    .rectangle {
+        font-size: 40px;
+    }
+    .main-greeting {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .img-girl {
+        padding-left: 0px;
+    }
+    .img-girl img {
+        width: 294px;
+        height: 416px;
+    }
+    .greeting-text h2 {
+        font-size: 100%;
+    }
+    .greeting-text p {
+        font-size: 80%;
+    }
+    .footer {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .footer-text {
+        padding-left: 30px;
+        margin-bottom: 40px;
+        padding-right: 20px;
+    }
+    .footer-text p {
+        font-size: 80%;
+    }
+    .footer-img img {
+        width: 317px;
+        height: 296px;
+    }
+
+
+}
+@media screen and (max-width: 595px) { 
+    .logo {
+        margin-right: 30px;
+        padding-left: 20px;
+    }
+    .header p {
+        padding-right: 20px;
+    }
+}
+@media screen and (max-width: 550px) { 
+    .header {
+        font-size: 90%;
+    }
+    .logo {
+        margin-right: 20px;
+    }
+    .header p {
+        padding-right: 20px;
+    }
+    .header img {
+        padding-top: 14px;
+    }
+    .rectangle {
+        font-size: 30px;
+    }
+
+}
+@media screen and (max-width: 500px) { 
+    .header {
+        font-size: 80%;
+    }
+    .header img {
+        padding-top: 10px;
+    }
+    .img-girl img {
+        width: 212px;
+        height: 299px;  
+    }
+    .footer-img img {
+        width: 265px;
+        height: 249px;  
+    }
+
+    .footer {
+        padding: 20px 60px 20px 7vw;
+    }
+    .banner img {
+        width: 231px;
+        height: 231px;
+    }
+}
+
+
+@media screen and (max-width: 455px) {
+    .header {
+        font-size: 70%;
+    }
+    .header img {
+        padding-top: 7px;
+    }
+    .footer-text p {
+        font-size: 70%;
+    }
+    .footer-img img {
+        width: 211px;
+        height: 198px;  
+    }
+}
+@media screen and (max-width: 420px) {
+    
+    .header {
+        font-size: 60%;
+        border-bottom: 1px solid black;
+    }
+    .rectangle {
+        font-size: 30px;
+    }
+    .heading-2 {
+        font-size: 90%;
+    }
+    .product-price-1 {
+        font-size: 120%;
+    }
+    .footer-text {
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+}
+@media screen and (max-width: 420px) {
+    .header img {
+        padding-top: 5px;
+    }
+
+    .footer {
+        padding: 20px 40px 20px 7vw;
+    }
+    .footer-text {
+        padding-right: 20px;
+    }
+    .footer {
+        border: 5px solid #171717;
+    }
+    .banner img {
+        width: 190px;
+        height: 190px;
+    }
+}
+@media screen and (max-width: 381px) {
+    .heading-2 {
+        font-size: 70%;
+    }
+}
+@media screen and (max-width: 376px) {
+    .header {
+        font-size: 50%;
+    }
+    .header img {
+        padding-top: 7px;
+    }
+    .header img {
+        width: 20px;
+        height: 20px;
+    }
+    .rectangle {
+        font-size: 20px;
+    }
+    .heading-2 {
+        font-size: 80%;
+    }
+    .footer {
+        padding: 20px 20px 20px 7vw;
+    }
+}
+@media screen and (max-width: 352px) {
+
+
+    .footer-text p {
+        font-size: 50%;
+    }
+    .footer-img img {
+        width: 188px;
+        height: 176px;
+    }
+}
+@media screen and (max-width: 330px) {
+    .heading-2 {
+        font-size: 65%;
+    }
+}
+@media screen and (max-width: 324px) {
+    .header {
+        font-size: 40%;
+    }
+    .header img {
+        padding-top: 2px;
+    }
+    .banner img {
+        width: 132px;
+        height: 132px;
+    }
+    .main-butt {
+        width: 120px;
+        height: 30px;
+        font-size: 50%;
+    }
+    .rectangle {
+        font-size: 17px;
+        letter-spacing: 15px;
+    }
+    .heading-2 {
+        font-size: 60%;
+    }
+    .greeting-text {
+        margin-right: 30px;
+        padding-left: 30px;
+    }
+    .main {
+        margin-bottom: 160px;
+    }
+    .product-list-banner {
+        border-bottom: 1px solid black;
+    }
+}
+@media screen and (max-width: 285px) {
+    .header {
+        font-size: 30%;
+    }
+}
+@media screen and (max-width: 250px) {
+    .header p {
+        padding-right: 10px;
+    }
+    .header img {
+        width: 15px;
+        height: 15px;
+    }
+}
+@media screen and (max-width: 220px) {
+    .greeting-text h2 {
+        font-size: 80%;
+    }
+    .greeting-text p {
+        font-size: 60%;
+    }
+    .footer-text p {
+        font-size: 60%;
+    }
+}
